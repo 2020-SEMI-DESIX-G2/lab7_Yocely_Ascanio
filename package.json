@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/2020-SEMI-DESIX-G2/lab7_Yocely_Ascanio.git"
+        "url": "git+https://github.com/2020-SEMI-DESIX-G2/lab7_Brayanth_Suarez.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/2020-SEMI-DESIX-G2/lab7_Yocely_Ascanio"
+        "url": "https://github.com/2020-SEMI-DESIX-G2/lab7_Brayanth_Suarez"
     },
-    "homepage": "https://github.com/2020-SEMI-DESIX-G2/lab7_Yocely_Ascanio#readme",
+    "homepage": "https://github.com/2020-SEMI-DESIX-G2/lab7_Brayanth_Suarez#readme",
     "dependencies": {
         "body-parser": "^1.19.0",
         "dotenv": "^8.2.0",
