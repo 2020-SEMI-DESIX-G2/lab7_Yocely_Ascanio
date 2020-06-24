@@ -1,0 +1,27 @@
+{
+    "name": "vagrant",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "mongo:start": "docker run --rm -p=27017:27017 --env-file=./.env --name=topespii--lab7--mongo -d centos/mongodb-32-centos7",
+        "mongo:stop": "docker stop topespii--lab7--mongo",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/2020-SEMI-DESIX-G2/lab7_Yocely_Ascanio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/2020-SEMI-DESIX-G2/lab7_Yocely_Ascanio"
+    },
+    "homepage": "https://github.com/2020-SEMI-DESIX-G2/lab7_Yocely_Ascanio#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.20",
+        "nodemon": "^2.0.4"
+    }
+}
